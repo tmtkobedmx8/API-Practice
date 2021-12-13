@@ -1,0 +1,29 @@
+GET http://localhost:8080/subscribers/
+
+###
+
+GET http://localhost:8080/subscribers/61b6c8200d98fe0c3a42c4e2
+
+
+###
+
+POST http://localhost:8080/subscribers/
+Content-Type: application/json
+
+{
+  "name": "ROGER",
+  "subscribedToChannel": "MTV"
+}
+
+###
+
+DELETE http://localhost:8080/subscribers/61b6d82285a8ccbba81628e7
+
+###
+
+PATCH http://localhost:8080/subscribers/61b6d81f85a8ccbba81628e5
+Content-Type: application/json
+
+{
+  "subscribedToChannel": "Raga TV" 
+}
